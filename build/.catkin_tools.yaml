@@ -1,0 +1,6 @@
+devel_space: /home/hcappel1/MultiAgentWBC/devel
+install: false
+install_space: /home/hcappel1/MultiAgentWBC/install
+profile: default
+source_space: /home/hcappel1/MultiAgentWBC/src
+workspace: /home/hcappel1/MultiAgentWBC
