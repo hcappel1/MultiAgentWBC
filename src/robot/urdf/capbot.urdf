@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<robot name="capbot">
+
+	<material name="blue">
+    	<color rgba="0 0 0.8 1"/>
+    </material>
+
+    <material name="black">
+    	<color rgba="0 0 0 1"/>
+  	</material>
+
+  	<material name="white">
+    	<color rgba="1 1 1 1"/>
+  	</material>
+
+	<link name="base_link">
+		<visual>
+			<geometry>
+				<box size="0.7 0.3 0.4"/>
+			</geometry>
+			<origin xyz="0 0 0.2"/>
+			<material name="blue"/>
+		</visual>
+	</link>
+
+	<link name="bar_1">
+		<visual>
+			<geometry>
+				<box size="0.05 0.05 0.6"/>
+			</geometry>
+			<origin rpy="0 0 0" xyz="0 0 0.3"/>
+			<material name="white"/>
+		</visual>
+	</link>
+
+	<joint name="base_to_bar1" type="revolute">
+	    <axis xyz="0 1 0"/>
+	    <limit effort="10.0" lower="-1.57" upper="1.57" velocity="0.5"/>
+
+    	<parent link="base_link"/>
+    	<child link="bar_1"/>
+    	<origin xyz="0 0 0.4"/>
+  	</joint>
+
+  	<link name="bar_2">
+		<visual>
+			<geometry>
+				<box size="0.05 0.05 0.6"/>
+			</geometry>
+			<origin rpy="0 0 0" xyz="0 0 0.3"/>
+			<material name="black"/>
+		</visual>
+	</link>
+
+	<joint name="bar1_to_bar2" type="revolute">
+	    <axis xyz="0 1 0"/>
+	    <limit effort="10.0" lower="-1.57" upper="1.57" velocity="0.5"/>
+
+    	<parent link="bar_1"/>
+    	<child link="bar_2"/>
+    	<origin xyz="0 0 0.6"/>
+  	</joint>
+
+  	<link name="bar_3">
+		<visual>
+			<geometry>
+				<box size="0.05 0.05 0.6"/>
+			</geometry>
+			<origin rpy="0 0 0" xyz="0 0 0.3"/>
+			<material name="white"/>
+		</visual>
+	</link>
+
+	<joint name="bar2_to_bar3" type="revolute">
+	    <axis xyz="0 1 0"/>
+	    <limit effort="10.0" lower="-1.57" upper="1.57" velocity="0.5"/>
+
+    	<parent link="bar_2"/>
+    	<child link="bar_3"/>
+    	<origin xyz="0 0 0.6"/>
+  	</joint>
+
+
+
+
+
+
+
+</robot>
