@@ -1,0 +1,28 @@
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:43:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope
+         odom_trans.transform.translation.x = cos(angle)*2;
+[01;32m[K                                                  ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:43:50:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/kinetic/include/tf2/transform_storage.h:36:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2/buffer_core.h:35[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2_ros/buffer_interface.h:35[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/tf.h:48[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/transform_broadcaster.h:36[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:4[m[K:
+[01m[K/opt/ros/kinetic/include/tf2/LinearMath/Quaternion.h:405:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf2::angle[m[K’
+ angle(const Quaternion& q1, const Quaternion& q2) 
+[01;32m[K ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/tf/LinearMath/Matrix3x3.h:20:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/LinearMath/Transform.h:21[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/transform_datatypes.h:41[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/time_cache.h:38[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/tf.h:43[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/transform_broadcaster.h:36[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:4[m[K:
+[01m[K/opt/ros/kinetic/include/tf/LinearMath/Quaternion.h:405:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf::angle[m[K’
+ angle(const Quaternion& q1, const Quaternion& q2) 
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2
