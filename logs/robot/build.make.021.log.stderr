@@ -1,0 +1,11 @@
+In file included from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:8:0[m[K:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:21:30:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  Eigen::Vector4d robot_state(4);
+[01;32m[K                              ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:21:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector6d[m[K’ in namespace ‘[01m[KEigen[m[K’ does not name a type
+  Eigen::Vector6d end_effector(6);
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2

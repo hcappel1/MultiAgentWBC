@@ -1,0 +1,10 @@
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:30:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble angle[m[K’
+     double angle = 0;
+[01;32m[K            ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:29:47:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble angle[m[K’ previously declared here
+     double tilt = 0, tinc = degree, swivel=0, angle=0, height=0, hinc=0.005;
+[01;32m[K                                               ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2

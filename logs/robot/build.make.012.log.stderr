@@ -1,0 +1,10 @@
+In file included from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:8:0[m[K:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:9:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  Robot()
+[01;32m[K        ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector6f[m[K’ in namespace ‘[01m[KEigen[m[K’ does not name a type
+  Eigen::Vector6f end_effector;
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2

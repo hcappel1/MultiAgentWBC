@@ -1,0 +1,9 @@
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:12:27:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KJacobian[m[K’ declared void
+ void Jacobian(end_effector){
+[01;32m[K                           ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:12:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_effector[m[K’ was not declared in this scope
+ void Jacobian(end_effector){
+[01;32m[K               ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2

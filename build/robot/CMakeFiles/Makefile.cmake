@@ -148,6 +148,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake"
+  "/usr/lib/cmake/eigen3/Eigen3Config.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCommonLanguageInclude.cmake"

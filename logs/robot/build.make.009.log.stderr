@@ -1,0 +1,20 @@
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrixXd[m[K’ was not declared in this scope
+     MatrixXd J;
+[01;32m[K     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:19:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:428:34:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::MatrixXd[m[K’
+ typedef Matrix<Type, Size, Size> Matrix##SizeSuffix##TypeSuffix;  \
+[01;32m[K                                  ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:444:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS[m[K’
+ EIGEN_MAKE_TYPEDEFS(Type, TypeSuffix, Dynamic, X) \
+[01;32m[K ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:451:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS_ALL_SIZES[m[K’
+ EIGEN_MAKE_TYPEDEFS_ALL_SIZES(double,               d)
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2

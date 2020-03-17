@@ -1,0 +1,18 @@
+In file included from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:8:0[m[K:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:22:2:[m[K [01;31m[Kerror: [m[K#endif without #if
+ #endif
+[01;32m[K  ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:14:14:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   MatrixXf J(6,4);
+[01;32m[K              ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:14:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:15:24:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   Vector4f robot_state(4);
+[01;32m[K                        ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:15:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/include/control_node.hpp:16:3:[m[K [01;31m[Kerror: [m[K‘[01m[KVector6f[m[K’ does not name a type
+   Vector6f end_effector(6);
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2

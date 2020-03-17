@@ -1,0 +1,1509 @@
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:[m[K In member function ‘[01m[KEigen::MatrixXd Robot::T_2_1(double, double)[m[K’:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:50:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(0,0) = cos(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:50:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,0) = cos(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:50:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,0) = cos(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:50:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,0) = cos(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:50:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,0) = cos(th2);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:51:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(0,1) = -sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:51:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,1) = -sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:51:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,1) = -sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:51:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,1) = -sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:51:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,1) = -sin(th2);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:52:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:52:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:52:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:52:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:52:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:53:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(0,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:53:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:53:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:53:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:53:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:54:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(1,0) = sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:54:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,0) = sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:54:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,0) = sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:54:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,0) = sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:54:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,0) = sin(th2);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:55:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(1,1) = cos(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:55:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,1) = cos(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:55:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,1) = cos(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:55:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,1) = cos(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:55:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,1) = cos(th2);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:56:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:56:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:56:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:56:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:56:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:57:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(1,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:57:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:57:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:57:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:57:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,3) = rho2*sin(th2);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:58:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:58:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:58:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:58:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:58:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:59:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:59:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:59:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:59:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:59:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:60:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:60:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:60:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:60:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:60:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:61:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:61:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:61:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:61:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:61:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:62:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:62:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:62:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:62:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:62:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:63:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:63:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:63:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:63:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:63:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:64:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:64:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:64:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:64:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:64:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:65:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:65:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:65:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:65:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:65:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:[m[K In member function ‘[01m[KEigen::MatrixXd Robot::T_3_2(double, double)[m[K’:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:72:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(0,0) = cos(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:72:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,0) = cos(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:72:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,0) = cos(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:72:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,0) = cos(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:72:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,0) = cos(th3);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:73:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(0,1) = -sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:73:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,1) = -sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:73:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,1) = -sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:73:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,1) = -sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:73:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,1) = -sin(th3);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:74:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:74:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:74:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:74:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:74:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(0,2) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:75:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(0,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:75:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:75:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:75:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:75:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(0,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:76:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(1,0) = sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:76:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,0) = sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:76:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,0) = sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:76:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,0) = sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:76:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,0) = sin(th3);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:77:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(1,1) = cos(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:77:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,1) = cos(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:77:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,1) = cos(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:77:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,1) = cos(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:77:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,1) = cos(th3);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:78:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:78:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:78:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:78:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:78:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(1,2) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:79:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kdouble[m[K’)
+     T_1_0(1,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:79:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:79:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:79:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:79:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kdouble[m[K’
+     T_1_0(1,3) = rho3*sin(th3);
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:80:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:80:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:80:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:80:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:80:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,0) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:81:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:81:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:81:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:81:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:81:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,1) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:82:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:82:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:82:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:82:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:82:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,2) = 1;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:83:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:83:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:83:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:83:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:83:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(2,3) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:84:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:84:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:84:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:84:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:84:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,0) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:85:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:85:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:85:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:85:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:85:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,1) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:86:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:86:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:86:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:86:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:86:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,2) = 0;
+[01;32m[K                ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:87:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixXd {aka Eigen::Matrix<double, -1, -1>}[m[K’ and ‘[01m[Kint[m[K’)
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, -1, -1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:87:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:87:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:87:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:7[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:87:16:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, -1>[m[K’ and ‘[01m[Kint[m[K’
+     T_1_0(3,3) = 1;
+[01;32m[K                ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2

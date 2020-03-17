@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/hcappel1/MultiAgentWBC/src/robot/CMakeLists.txt:11 (find_package):
+  Could not find a configuration file for package "Eigen3" that is compatible
+  with requested version "3.2".
+
+  The following configuration files were considered but not accepted:
+
+    /usr/lib/cmake/eigen3/Eigen3Config.cmake, version: unknown
+
+
+
+make: *** [cmake_check_build_system] Error 1
