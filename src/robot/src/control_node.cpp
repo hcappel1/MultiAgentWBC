@@ -139,21 +139,22 @@ VectorXd Kinematics::InvKin(VectorXd end_effector){
     double ee_x = end_effector(0);
     double ee_y = end_effector(1);
     double ee_z = end_effector(2);
+    double ee_phi = end_effector(3);
     double rho1 = 0.6;
     double rho2 = 0.6;
     double rho3 = 0.6;
 
-    double phi = atan(ee_y/ee_x);
-    double x_w = ee_x - rho3*cos(phi);
-    double y_w = ee_y - rho3*sin(phi);
-    double alpha = atan(y_w/x_w);
-    double r = sqrt(pow(x_w,2)+pow(y_w,2));
-    double beta = acos((-r+rho1+rho2)/(2*rho1*rho2));
-    double gamma = acos((-rho2+rho1+r)/(2*rho1*r));
+    double xp = ee_x - rho3*sin(ee_phi);
+    double zp = ee_z - rho3*cos(ee_phi);
+    double P = -2*rho1*zp;
+    double Q = -2*rho1*xp;
+    double R = pow(xp,2) + pow(zp,2) + pow(rho1,2) - pow(rho2,2);
+    double D = sqrt(pow(P,2)+pow(Q,2));
+    double gamma = atan2(Q/D,P/D);
 
-    double th1 = M_PI/2-alpha+gamma;
-    double th2 = -M_PI/2+beta;
-    double th3 = M_PI/2-phi+th1+th2;
+    double th1 = gamma - acos(-R/D);
+    double th2 = atan2((xp-rho1*sin(th1))/rho2,(zp-rho1*cos(th1))/rho2) - th1;
+    double th3 = ee_phi-th1-th2;
 
     joint_state(0) = th1;
     joint_state(1) = th2;
@@ -165,10 +166,11 @@ VectorXd Kinematics::InvKin(VectorXd end_effector){
 int main(int argc, char** argv) {
     ros::init(argc, argv, "state_publisher");
 
-    VectorXd end_effector(3);
-    end_effector(0) = 1.0;
-    end_effector(1) = 0.5;
-    end_effector(2) = 0;
+    VectorXd end_effector(4);
+    end_effector(0) = -1.0;
+    end_effector(1) = 0;
+    end_effector(2) = 0.5;
+    end_effector(3) = -M_PI/4;
 
     Kinematics kinematics;
 

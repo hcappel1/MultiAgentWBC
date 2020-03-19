@@ -1,0 +1,10 @@
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:[m[K In member function ‘[01m[KEigen::VectorXd Kinematics::InvKin(Kinematics::VectorXd)[m[K’:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:150:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kdouble[m[K’
+     double gamma = atan2(-yp/rp,-xp/rp);
+[01;32m[K     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:152:89:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble(double) throw ()[m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator+[m[K’
+     double th1 = gamma + acos(-(pow(xp,2)+pow(yp,2)+pow(rho1,2)-pow(rho2,2))/(2*rho1*rp));
+[01;32m[K                                                                                         ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2
