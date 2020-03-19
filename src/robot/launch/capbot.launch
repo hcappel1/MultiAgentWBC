@@ -16,8 +16,7 @@
   	<node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
 
 
-  	<node name="control_node" pkg="robot" type="control_node" />
-
+  	<node name="control_node" pkg="robot" type="control_node" output="screen" />
 
 
 </launch>

@@ -1,3 +1,6 @@
+#define _USE_MATH_DEFINES
+
+#include <math.h>
 #include <string>
 #include <ros/ros.h>
 #include <sensor_msgs/JointState.h>
@@ -14,16 +17,16 @@ using namespace Eigen;
 
 // }
 
-Robot::Robot(){
-    std::cout << "[Robot constructed]" << std::endl;
+Kinematics::Kinematics(){
+    std::cout << "[Kinematics constructed]" << std::endl;
 }
 
-Robot::~Robot(){
-    std::cout << "[Robot destructed]" << std::endl;
+Kinematics::~Kinematics(){
+    std::cout << "[Kinematics destructed]" << std::endl;
 }
 
 //Transformation matrices
-MatrixXd Robot::T_1_0(double th1, double rho1){
+MatrixXd Kinematics::T_1_0(double th1, double rho1){
     MatrixXd T_1_0(4,4);
     T_1_0(0,0) = cos(th1);
     T_1_0(0,1) = -sin(th1);
@@ -45,7 +48,7 @@ MatrixXd Robot::T_1_0(double th1, double rho1){
     return T_1_0;
 }
 
-MatrixXd Robot::T_2_1(double th2, double rho2){
+MatrixXd Kinematics::T_2_1(double th2, double rho2){
     MatrixXd T_2_1(4,4);
     T_2_1(0,0) = cos(th2);
     T_2_1(0,1) = -sin(th2);
@@ -67,7 +70,7 @@ MatrixXd Robot::T_2_1(double th2, double rho2){
     return T_2_1;
 }
 
-MatrixXd Robot::T_3_2(double th3, double rho3){
+MatrixXd Kinematics::T_3_2(double th3, double rho3){
     MatrixXd T_3_2(4,4);
     T_3_2(0,0) = cos(th3);
     T_3_2(0,1) = -sin(th3);
@@ -89,14 +92,14 @@ MatrixXd Robot::T_3_2(double th3, double rho3){
     return T_3_2;
 }
 
-MatrixXd Robot::Jacobian(VectorXd robot_state){
+MatrixXd Kinematics::Jacobian(VectorXd robot_state){
     MatrixXd J_(6,4);
     double th1 = robot_state(0);
     double th2 = robot_state(1);
     double th3 = robot_state(2);
-    double rho1 = 1.0;
-    double rho2 = 1.0;
-    double rho3 = 1.0;
+    double rho1 = 0.6;
+    double rho2 = 0.6;
+    double rho3 = 0.6;
 
     double sig1 = rho2*sin(th2)+rho3*cos(th2)*sin(th3)+rho3*cos(th3)*sin(th2);
     double sig2 = rho2*cos(th2)+rho3*cos(th2)-rho3*sin(th2)*sin(th3);
@@ -130,8 +133,50 @@ MatrixXd Robot::Jacobian(VectorXd robot_state){
 
 }
 
+VectorXd Kinematics::InvKin(VectorXd end_effector){
+    VectorXd joint_state(3);
+
+    double ee_x = end_effector(0);
+    double ee_y = end_effector(1);
+    double ee_z = end_effector(2);
+    double rho1 = 0.6;
+    double rho2 = 0.6;
+    double rho3 = 0.6;
+
+    double phi = atan(ee_y/ee_x);
+    double x_w = ee_x - rho3*cos(phi);
+    double y_w = ee_y - rho3*sin(phi);
+    double alpha = atan(y_w/x_w);
+    double r = sqrt(pow(x_w,2)+pow(y_w,2));
+    double beta = acos((-r+rho1+rho2)/(2*rho1*rho2));
+    double gamma = acos((-rho2+rho1+r)/(2*rho1*r));
+
+    double th1 = M_PI/2-alpha+gamma;
+    double th2 = -M_PI/2+beta;
+    double th3 = M_PI/2-phi+th1+th2;
+
+    joint_state(0) = th1;
+    joint_state(1) = th2;
+    joint_state(2) = th3;
+
+    return joint_state;
+}
+
 int main(int argc, char** argv) {
     ros::init(argc, argv, "state_publisher");
+
+    VectorXd end_effector(3);
+    end_effector(0) = 1.0;
+    end_effector(1) = 0.5;
+    end_effector(2) = 0;
+
+    Kinematics kinematics;
+
+    VectorXd joint = kinematics.InvKin(end_effector);
+    for (int i=0;i<=2;i++){
+        cout << joint(i) << endl;
+    }
+
 
     ros::NodeHandle n;
     ros::Publisher joint_pub = n.advertise<sensor_msgs::JointState>("/control_node_joint_msg", 1);
@@ -158,11 +203,11 @@ int main(int argc, char** argv) {
         joint_state.name[0] ="base_joint";
         joint_state.position[0] = 0.0;
         joint_state.name[1] ="base_to_bar1";
-        joint_state.position[1] = swivel;
+        joint_state.position[1] = joint(0);
         joint_state.name[2] ="bar1_to_bar2";
-        joint_state.position[2] = tilt;
+        joint_state.position[2] = joint(1);
         joint_state.name[3] ="bar2_to_bar3";
-        joint_state.position[3] = height;
+        joint_state.position[3] = joint(2);
 
 
         // update transform

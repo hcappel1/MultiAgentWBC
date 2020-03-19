@@ -9,10 +9,10 @@ using namespace Eigen;
 
 
 
-class Robot{
+class Kinematics{
 public:
-	Robot();
-	virtual ~Robot();
+	Kinematics();
+	virtual ~Kinematics();
 
 	typedef Matrix<double, Dynamic, Dynamic> MatrixXd;
 	typedef Matrix<double, Dynamic, 1> VectorXd;
@@ -25,6 +25,8 @@ public:
 	MatrixXd T_1_0(double th1, double rho1);
 	MatrixXd T_2_1(double th2, double rho2);
 	MatrixXd T_3_2(double th3, double rho3);
+
+	VectorXd InvKin(VectorXd end_effector);
 };
 
 

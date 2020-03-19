@@ -1,0 +1,7 @@
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:[m[K In member function ‘[01m[KEigen::VectorXd Kinematics::InvKin(Kinematics::VectorXd)[m[K’:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:151:18:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ was not declared in this scope
+     double th1 = PI/2-alpha+gamma;
+[01;32m[K                  ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,85 @@
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:173:59:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[KEigen::VectorXd Kinematics::InvKin(Kinematics::VectorXd)[m[K’ without object
+     VectorXd joint_state = Kinematics::InvKin(end_effector);
+[01;32m[K                                                           ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:192:29:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ksensor_msgs::JointState joint_state[m[K’
+     sensor_msgs::JointState joint_state;
+[01;32m[K                             ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:173:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[KEigen::VectorXd joint_state[m[K’
+     VectorXd joint_state = Kinematics::InvKin(end_effector);
+[01;32m[K              ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:198:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kheader[m[K’
+         joint_state.header.stamp = ros::Time::now();
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:199:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kname[m[K’
+         joint_state.name.resize(4);
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:200:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kposition[m[K’
+         joint_state.position.resize(4);
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:201:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kname[m[K’
+         joint_state.name[0] ="base_joint";
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:202:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kposition[m[K’
+         joint_state.position[0] = 0.0;
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:203:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kname[m[K’
+         joint_state.name[1] ="base_to_bar1";
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:204:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kposition[m[K’
+         joint_state.position[1] = swivel;
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:205:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kname[m[K’
+         joint_state.name[2] ="bar1_to_bar2";
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:206:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kposition[m[K’
+         joint_state.position[2] = tilt;
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:207:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kname[m[K’
+         joint_state.name[3] ="bar2_to_bar3";
+[01;32m[K                     ^[m[K
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:208:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd {aka class Eigen::Matrix<double, -1, 1>}[m[K’ has no member named ‘[01m[Kposition[m[K’
+         joint_state.position[3] = height;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:5[m[K:
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value(const M&) [with M = Eigen::Matrix<double, -1, 1>][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:255:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum(const M&) [with M = Eigen::Matrix<double, -1, 1>][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:112:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = Eigen::Matrix<double, -1, 1>][m[K’
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:220:38:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:126:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Eigen::Matrix<double, -1, 1>[m[K’ has no member named ‘[01m[K__getMD5Sum[m[K’
+     return m.__getMD5Sum().c_str();
+[01;32m[K                                  ^[m[K
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value(const M&) [with M = Eigen::Matrix<double, -1, 1>][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:264:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype(const M&) [with M = Eigen::Matrix<double, -1, 1>][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:112:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = Eigen::Matrix<double, -1, 1>][m[K’
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:220:38:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:143:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Eigen::Matrix<double, -1, 1>[m[K’ has no member named ‘[01m[K__getDataType[m[K’
+     return m.__getDataType().c_str();
+[01;32m[K                                    ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/publisher.h:34:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:5[m[K:
+/opt/ros/kinetic/include/ros/serialization.h: In instantiation of ‘[01m[Kstatic uint32_t ros::serialization::Serializer<T>::serializedLength(typename boost::call_traits<T>::param_type) [with T = Eigen::Matrix<double, -1, 1>; uint32_t = unsigned int; typename boost::call_traits<T>::param_type = const Eigen::Matrix<double, -1, 1>&][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:172:41:[m[K   required from ‘[01m[Kuint32_t ros::serialization::serializationLength(const T&) [with T = Eigen::Matrix<double, -1, 1>; uint32_t = unsigned int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:808:37:[m[K   required from ‘[01m[Kros::SerializedMessage ros::serialization::serializeMessage(const M&) [with M = Eigen::Matrix<double, -1, 1>][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:118:26:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = Eigen::Matrix<double, -1, 1>][m[K’
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:220:38:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:144:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Eigen::Matrix<double, -1, 1>[m[K’ has no member named ‘[01m[KserializationLength[m[K’
+     return t.serializationLength();
+[01;32m[K                                  ^[m[K
+/opt/ros/kinetic/include/ros/serialization.h: In instantiation of ‘[01m[Kstatic void ros::serialization::Serializer<T>::write(Stream&, typename boost::call_traits<T>::param_type) [with Stream = ros::serialization::OStream; T = Eigen::Matrix<double, -1, 1>; typename boost::call_traits<T>::param_type = const Eigen::Matrix<double, -1, 1>&][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:154:23:[m[K   required from ‘[01m[Kvoid ros::serialization::serialize(Stream&, const T&) [with T = Eigen::Matrix<double, -1, 1>; Stream = ros::serialization::OStream][m[K’
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:815:12:[m[K   required from ‘[01m[Kros::SerializedMessage ros::serialization::serializeMessage(const M&) [with M = Eigen::Matrix<double, -1, 1>][m[K’
+[01m[K/opt/ros/kinetic/include/ros/publisher.h:118:26:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = Eigen::Matrix<double, -1, 1>][m[K’
+[01m[K/home/hcappel1/MultiAgentWBC/src/robot/src/control_node.cpp:220:38:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/serialization.h:127:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Eigen::Matrix<double, -1, 1>[m[K’ has no member named ‘[01m[Kserialize[m[K’
+     t.serialize(stream.getData(), 0);
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_node.dir/all] Error 2
+make: *** [all] Error 2
