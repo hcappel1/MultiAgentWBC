@@ -9,6 +9,7 @@
 #include <iostream>
 #include <Eigen/Dense>
 #include <control_node.hpp>
+#include <ros/console.h>
 
 using namespace std;
 using namespace Eigen;
@@ -133,6 +134,30 @@ MatrixXd Kinematics::Jacobian(VectorXd robot_state){
 
 }
 
+bool Kinematics::Feasibility(VectorXd joint){
+    double th1 = joint(0);
+    double th2 = joint(1);
+    double th3 = joint(2);
+    joint_min = 3*M_PI/2;
+    joint_max = M_PI/2;
+
+    if (th1 > joint_max and th1 < joint_min){
+        return false;
+    }
+
+    else if (th2 > joint_max and th2 < joint_min){
+        return false;
+    }
+
+    else if (th3 > joint_max and th3 < joint_min){
+        return false;
+    }
+
+    else{
+        return true;
+    }
+}
+
 VectorXd Kinematics::InvKin(VectorXd end_effector){
     VectorXd joint_state(3);
 
@@ -167,18 +192,26 @@ int main(int argc, char** argv) {
     ros::init(argc, argv, "state_publisher");
 
     VectorXd end_effector(4);
-    end_effector(0) = -1.0;
+    end_effector(0) = -1.6;
     end_effector(1) = 0;
-    end_effector(2) = 0.5;
+    end_effector(2) = 0.6;
     end_effector(3) = -M_PI/4;
 
     Kinematics kinematics;
 
     VectorXd joint = kinematics.InvKin(end_effector);
-    for (int i=0;i<=2;i++){
-        cout << joint(i) << endl;
+    if (isnan(joint(0))){
+        ROS_ERROR("joint state infeasible");
     }
-
+    else if (kinematics.Feasibility(joint)==false){
+        ROS_ERROR("joint state infeasible");
+    }
+    else{
+        ROS_INFO("calculated joint state");
+        ROS_INFO("theta1: %f", joint(0));
+        ROS_INFO("theta2: %f", joint(1));
+        ROS_INFO("theta3: %f", joint(2));
+    } 
 
     ros::NodeHandle n;
     ros::Publisher joint_pub = n.advertise<sensor_msgs::JointState>("/control_node_joint_msg", 1);
